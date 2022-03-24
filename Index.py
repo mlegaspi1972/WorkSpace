@@ -9,3 +9,7 @@ def say_hello(request):
 def home_view(request, *args,**kwargs):
     # return HttpResponse("<h1>Hello World</h1>")
     return render(request,"home.html",{})
+
+def feature2():
+    return 1
+
